@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://mysql_db:3306/registration
+    username: root
+    password: secret
+    driver-class-name: com.mysql.cj.jdbc.Driver
